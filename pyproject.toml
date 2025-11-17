@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "percipio"
+version = "0.1.0"
+authors = [{ name = "Mohammad" }]
+description = "Semantic data inference and transformation engine. Percipio understands your messy data so you don't have to."
+readme = "README.md"
+license = { text = "Apache-2.0" }
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic ::Scientific/Engineering :: Information Analysis",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+dependencies = [
+    "requests", # For [llm] integration and web-based types
+    # "numpy", # Would be added for statistical analysis
+    # "pandas", # Would be added for dataframe integration
+]
+
+[project.urls]
+Homepage = "https://github.com/mohammadd13579/percipio"
