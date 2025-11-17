@@ -22,13 +22,7 @@ Installation
 ------------
 
 ```
-pip install percipio
-```
-
-For the optional generative AI features:
-
-```
-pip install percipio[llm]
+pip install percipio.whl
 ```
 
 Quickstart
