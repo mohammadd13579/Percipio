@@ -1,4 +1,4 @@
-percipio
+Percipio
 =========
 
 ### *Semantic data inference and transformation.*
